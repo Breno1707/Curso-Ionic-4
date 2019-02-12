@@ -1,0 +1,13 @@
+ion-grid {
+    --ion-grid-columns: 12; //customiza o número de colunas (o padrão é 12) 
+    ion-row {
+        ion-col {
+            background-color:#d7d7d7;
+            color: #333;
+            margin: 0px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #fff;
+        }
+    }
+}

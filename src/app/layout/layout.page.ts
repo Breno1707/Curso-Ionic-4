@@ -13,20 +13,9 @@ export class LayoutPage implements OnInit {
 
   ngOnInit() {
   }
-
-  openLayoutHeaderFooter() {
-    this.navCtrl.navigateForward('layout-header-footer');
+  abrirPagina(nomeDaPagina : string){
+    this.navCtrl.navigateForward(nomeDaPagina);
   }
-  openLayoutTabs() {
-    this.navCtrl.navigateForward('layout-tabs');
-  }
-  openLayoutMenu() {
-    this.navCtrl.navigateForward('layout-menu');
-  }
-  openLayoutSplit() {
-    this.navCtrl.navigateForward('layout-split');
-  }
-
 }
 
 
